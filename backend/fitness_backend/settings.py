@@ -104,7 +104,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",  # Vite default port
     "http://127.0.0.1:5173",
     # "https://your-frontend-app.vercel.app",
-    "https://fitness-ochre-rho.vercel.app/",
+    "https://fitness-ochre-rho.vercel.app",
 ]
 
 # OR allow all origins for development (easier)
