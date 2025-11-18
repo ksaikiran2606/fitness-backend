@@ -15,7 +15,8 @@ ALLOWED_HOSTS = [
     '127.0.0.1', 
     '0.0.0.0',
     '.onrender.com',  # For Render deployment
-    '.vercel.app'     # For Vercel if needed
+    '.vercel.app',    # For Vercel if needed
+    'https://fitness-backend-0k21.onrender.com',
 ]
 
 # Application definition
