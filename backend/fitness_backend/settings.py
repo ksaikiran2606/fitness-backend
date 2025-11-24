@@ -16,7 +16,7 @@ ALLOWED_HOSTS = [
     '0.0.0.0',
     '.onrender.com',  # For Render deployment
     '.vercel.app',    # For Vercel if needed
-    'https://fitness-backend-0k21.onrender.com',
+    'fitness-backend-0k21.onrender.com',
 ]
 
 # Application definition
@@ -99,26 +99,21 @@ SIMPLE_JWT = {
 }
 
 # CORS Configuration
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "http://127.0.0.1:3000",
-    "http://localhost:5173",  # Vite default port
-    "http://127.0.0.1:5173",
-    # "https://your-frontend-app.vercel.app",
-    "https://fitness-ochre-rho.vercel.app",
-]
-
-# OR allow all origins for development (easier)
-CORS_ALLOW_ALL_ORIGINS = False  # Add this line for development
-
-CORS_ALLOW_CREDENTIALS = True
-
-
+# CORS_ALLOWED_ORIGINS = [
+#     "http://localhost:3000",
+#     "http://127.0.0.1:3000",
+#     "http://localhost:5173",  # Vite default port
+#     "http://127.0.0.1:5173",
+#     # "https://your-frontend-app.vercel.app",
+#     "https://fitness-ochre-rho.vercel.app",
+# ]
 
 # OR allow all origins for development (easier)
 CORS_ALLOW_ALL_ORIGINS = True  # Add this line for development
 
 CORS_ALLOW_CREDENTIALS = True
+
+
 
 # Additional CORS settings
 CORS_ALLOW_HEADERS = [
